@@ -1,0 +1,25 @@
+.about__wrapper {
+    background-image: url('../img/img6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about {
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about .info__title {
+    background-color: var(--third-brand-color);
+    padding: 4rem 1rem;
+}
+@media screen and (min-width: 1024px)  {
+    .about {
+        padding: 15rem 0;
+    }
+    .about .info__title {
+        padding: 5rem 3rem;
+    }
+}
